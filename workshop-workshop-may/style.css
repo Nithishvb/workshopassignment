@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+}
+.inner-section {
+    min-height: 100vh;
+}
+header ul {
+    background: lightgray;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+    padding: 20px;
+}
+.hero {
+    height: 60vh;
+    background: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1 {
+    color: white;
+    font-size: 5em;
+}
+.article {
+    display: flex;
+    padding: 20px;
+}
+.article .inner {
+    width: 50%;
+}
+.copyright {
+    background: black;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    height: 300px;
+}
+.form-section  form{
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    border-radius: 7px;
+}
+.inputFiled{
+    padding: 20px;
+}
+input[type='text']{
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    outline-color: orange;
+}
+.inputButton{
+    margin-top: 20px;
+    padding: 20px;
+}
+.inputButton > button{
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+.inputButton > button:hover{
+    color: black;
+    background-color: white;
+}
+@media (max-width: 800px) {
+    .hero {
+        height: 40vh;
+    }
+    .hero h1 {
+        font-size: 4em !important;
+        text-align: center;
+    }
+    .article {
+        flex-wrap: wrap;
+    }
+    .article .inner {
+        width: 100%;
+        padding-top: 30px;
+    }
+}
