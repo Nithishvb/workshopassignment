@@ -1,2 +1,2 @@
-# workshopassignment
-html hints workshop asisignment
+# workshop
+Html Hints Workshop
